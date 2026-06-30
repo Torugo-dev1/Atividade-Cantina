@@ -10,7 +10,6 @@ public class Main extends Application {
 
     @Override
     public void start(Stage palcoPrincipal) throws Exception {
-        // Carrega o arquivo fxml. Certifique-se de que o nome aqui seja igual ao do seu arquivo fxml
         Parent raiz = FXMLLoader.load(getClass().getResource("primary.fxml"));
         
         palcoPrincipal.setTitle("Cantina TOP");
